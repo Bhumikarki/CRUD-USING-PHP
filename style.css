@@ -1,0 +1,46 @@
+*{
+    margin:2px;
+    padding:10px;
+}
+h2{
+    color:blue;
+}
+input{
+    width:500px;
+    margin:10px;
+    
+}
+button{
+    background-color: rgb(172, 138, 204);
+    color:black;
+    border: none;
+    margin:5px;
+}
+button:hover {
+    color: white;
+    background-color:blueviolet;
+}
+table {
+    width: 50%;
+    margin: 0 200px;
+    border-collapse: collapse;
+    place-items:center;
+    padding:100px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+a{
+    text-decoration:none;
+}
+button a{
+    color:black;
+}
+button a:hover {
+    color: white;
+}
